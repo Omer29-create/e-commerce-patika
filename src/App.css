@@ -2,18 +2,39 @@
   display: flex;
 }
 
-.fil {
-  display: grid;
-  border: solid  blue 3px;
-  grid-template-columns: 1200px;
-  grid-template-rows: 100vh;
-  column-gap: 10px;
-}  
-
 .pro {
   display: grid;
-  grid-template-columns: 200px;
+  grid-template-columns: 500px;
   grid-template-rows: 100px 2fr;
   border: solid  red 3px;
 }
 
+.fil {
+  display: grid;
+  border: solid  blue 3px;
+  grid-template-columns: 500px;
+  grid-template-rows: 100vh;
+  column-gap: 10px;
+}  
+
+.car {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.ada {
+  border: 3px green solid;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ada button:hover {
+  background-color: red;
+}
